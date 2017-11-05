@@ -47,11 +47,11 @@ public class JapaneseBlocks
 		AsiancraftRegistry.registerRender(japanese_stone);
 		AsiancraftRegistry.registerRender(japanese_cobblestone);
 		AsiancraftRegistry.registerRender(covered_jp_cherryblossom);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_dirt, 0);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_dirt, 1);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 0);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 1);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 2);
-		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 3);
+		AsiancraftRegistry.registerModelRender(japanese_dirt, 0,"japanese_dirt");
+		AsiancraftRegistry.registerModelRender(japanese_dirt, 1,"japanese_coarse_dirt");
+		AsiancraftRegistry.registerModelRender(japanese_wooden_planks,0 ,"japanese_cherry_planks");
+		AsiancraftRegistry.registerModelRender(japanese_wooden_planks, 1,"japanese_maple_planks");
+		AsiancraftRegistry.registerModelRender(japanese_wooden_planks, 2,"japanese_black_pine_planks");
+		AsiancraftRegistry.registerModelRender(japanese_wooden_planks, 3,"japanese_white_lilac_planks");
 	}
 }

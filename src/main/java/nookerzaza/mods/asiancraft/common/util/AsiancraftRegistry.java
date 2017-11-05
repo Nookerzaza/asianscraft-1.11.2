@@ -3,6 +3,7 @@ package nookerzaza.mods.asiancraft.common.util;
 import com.ibm.icu.impl.duration.impl.Utils;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -25,6 +26,17 @@ public class AsiancraftRegistry {
 		Util.getLoger().info("Register render for " + items.getUnlocalizedName().substring(5) + " With metadata " + metadata);
 	}
 	
+	public static void registerModelRender(Block block, String variantName) {
+		AsiancraftRegistry.registerModelRender(Item.getItemFromBlock(block), 0, variantName);
+	}
+	public static void registerModelRender(Block block,int meta, String variantName) {
+		AsiancraftRegistry.registerModelRender(Item.getItemFromBlock(block), meta, variantName);
+	}
+
+	public static void registerModelRender(Item item, int meta, String variantName) {
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, meta,new ModelResourceLocation("asianscraft:" + variantName, "inventory"));
+	}
+
 	public static void registerRender(Block block) 
 	{
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(ReferenceAC.MOD_ID, block.getUnlocalizedName().substring(5)), "inventory"));

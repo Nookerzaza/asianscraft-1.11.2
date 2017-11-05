@@ -26,8 +26,8 @@ public class BlockJapaneseWood extends BlockBaseAC
     {
         super(Material.WOOD);
         this.setSoundType(SoundType.WOOD);
-        this.setHardness(0.55F);
-        this.setDefaultState(this.getDefaultState().withProperty(VARIANT, BlockType.JAPANESE_CHERRY_WOOD));
+        this.setHardness(2.0F);
+        this.setDefaultState(this.getDefaultState().withProperty(VARIANT, BlockType.japanese_cherry_planks));
         this.setUnlocalizedName(name);
     	this.setRegistryName(ReferenceAC.MOD_ID, name);
     }
@@ -69,10 +69,10 @@ public class BlockJapaneseWood extends BlockBaseAC
 
     public static enum BlockType implements IStringSerializable
     {
-    	JAPANESE_CHERRY_WOOD,
-        JAPANESE_MAPLE_WOOD,
-        JAPANESE_BLACK_PINE_WOOD,
-        JAPANESE_WHITE_LILAC_WOOD;
+    	japanese_cherry_planks,
+    	japanese_maple_planks,
+    	japanese_black_pine_planks,
+    	japanese_white_lilac_planks;
 
         private static BlockType[] values = BlockType.values();
 
