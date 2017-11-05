@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "asianscraft:covered_cherryblossom_grass" },
+            { "model": "asianscraft:covered_cherryblossom_grass", "y": 90 },
+            { "model": "asianscraft:covered_cherryblossom_grass", "y": 180 },
+            { "model": "asianscraft:covered_cherryblossom_grass", "y": 270 }
+        ]
+    }
+}

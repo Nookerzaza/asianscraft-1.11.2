@@ -1,0 +1,34 @@
+en_US = United state
+
+itemGroup.ac_tabblock=AsiansCraft Blocks
+itemGroup.ac_tabitems=AsiansCraft items
+
+//config
+configgui_ac=Asians Craft config
+configacgen=GENERAL
+configaccoutries=COUNTRIES
+configacbiomes=BIOMES
+configacgui=GUI
+config.ac.general=
+config.ac.countries=
+config.ac.biome=
+config.ac.gui=
+
+//block
+tile.japanese_stone.name=Japanese Stone
+tile.japanese_cobblestone.name=Japanese Cobblestone
+tile.covered_cherryblossom_grass.name=Covered Cherryblossom Grass
+tile.japanese_dirt.dirt.name=Japanese Dirt
+tile.japanese_dirt.coarse.name=Japanese Coarse Dirt
+
+//items
+item.achivement_book_ac.name=Achivements Book
+
+item.stone_kinfe.name=Stone Knife
+item.iron_kinfe.name=Iron Knife
+item.diamond_kinfe.name=Diamond Knife
+item.nether_quartz_knife.name=Nether Quartz Knife
+item.emerald_knife.name=Emerald Knife
+item.obsidian_knife.name=Obsidian Knife
+item.nether_star_knife.name=Nether Star Knife
+item.golden_knife.name=Golden Knife

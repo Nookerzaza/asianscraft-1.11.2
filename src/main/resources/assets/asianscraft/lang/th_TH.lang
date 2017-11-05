@@ -1,0 +1,34 @@
+﻿th_th = thailand
+
+itemGroup.ac_tabblock=เอเชี่ยนคราฟ บล็อก
+itemGroup.ac_tabitems=เอเชี่ยนคราฟ สี่งของ
+
+//config
+configgui_ac=การตั้งค่าเอเชี่ยนคราฟ
+configacgen=ทั่วไป
+configaccoutries=ประเทศ
+configacbiomes=นิเวศวิทยา
+configacgui=เมนูในเกม
+config.ac.general=
+config.ac.countries=
+config.ac.biome=
+config.ac.gui=
+
+//block
+tile.japanese_stone.name=หินญี่ปุ่น
+tile.japanese_cobblestone.name=หินหยาบญี่ปุ่น
+tile.covered_cherryblossom_grass.name=หญ้าที่ปกคลุมด้วยซากุระ
+tile.japanese_dirt.dirt.name=ดินญี่ปุ่น
+tile.japanese_dirt.coarse.name=ดินหยาบญี่ปุ่น
+
+//items
+item.achivement_book_ac.name=หนังสือแห่งความสำเร็จ
+
+item.stone_kinfe.name=มีดหิน
+item.iron_kinfe.name=มีดเหล็ก
+item.diamond_kinfe.name=มีดเพชร
+item.nether_quartz_knife.name=มีดควอตซ์นรก
+item.emerald_knife.name=มีดมรกต
+item.obsidian_knife.name=มีดหินออบซิเดียน
+item.nether_star_knife.name=มีดเนเธอร์สตาร์
+item.golden_knife.name=มีดทอง

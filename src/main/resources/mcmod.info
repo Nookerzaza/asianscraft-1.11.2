@@ -1,0 +1,16 @@
+[
+{
+  "modid": "asianscraft",
+  "name": "AsiansCraft",
+  "description": "Add More countries in minecraft.",
+  "version": "2.0.0",
+  "mcversion": "{1.11.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nookerzaza"],
+  "credits": "Thank you for some ResorcePack and Another mod",
+  "logoFile": "AsiancraftLogo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

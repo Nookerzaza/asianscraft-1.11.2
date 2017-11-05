@@ -1,0 +1,6 @@
+{
+    "parent": "asianscraft:item/item_kinfe",
+    "textures": {
+        "layer0": "asianscraft:items/diamond_knife"
+    }
+}
