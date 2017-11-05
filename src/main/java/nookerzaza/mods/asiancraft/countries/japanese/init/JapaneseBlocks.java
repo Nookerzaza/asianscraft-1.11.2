@@ -6,7 +6,9 @@ import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseDirt;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCobbleStone;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCoveredCherryBlossomGrass;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseStone;
-import nookerzaza.mods.asiancraft.countries.japanese.blocks.ItemBlockJapaneseDirt;
+import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseWood;
+import nookerzaza.mods.asiancraft.countries.japanese.itemblocks.ItemBlockJapaneseDirt;
+import nookerzaza.mods.asiancraft.countries.japanese.itemblocks.ItemBlockJapaneseWood;
 
 public class JapaneseBlocks 
 {
@@ -14,6 +16,7 @@ public class JapaneseBlocks
 	public static Block japanese_stone;
 	public static Block japanese_cobblestone;
 	public static Block japanese_dirt;
+	public static Block japanese_wooden_planks;
 	
 	public static void init()
 	{
@@ -27,6 +30,7 @@ public class JapaneseBlocks
 		japanese_cobblestone = new BlockJapaneseCobbleStone("japanese_cobblestone");
 		covered_jp_cherryblossom = new BlockJapaneseCoveredCherryBlossomGrass("covered_cherryblossom_grass");
 		japanese_dirt = new BlockJapaneseDirt("japanese_dirt");
+		japanese_wooden_planks = new BlockJapaneseWood("japanese_wooden_planks");
 	}
 	
 	public static void register()
@@ -35,6 +39,7 @@ public class JapaneseBlocks
 		AsiancraftRegistry.registerblocks(japanese_cobblestone);
 		AsiancraftRegistry.registerblocks(covered_jp_cherryblossom);
 		AsiancraftRegistry.registerblocks(japanese_dirt,new ItemBlockJapaneseDirt(japanese_dirt));
+		AsiancraftRegistry.registerblocks(japanese_wooden_planks,new ItemBlockJapaneseWood(japanese_wooden_planks));
 	}
 	
 	public static void registerrenderer()
@@ -44,5 +49,9 @@ public class JapaneseBlocks
 		AsiancraftRegistry.registerRender(covered_jp_cherryblossom);
 		AsiancraftRegistry.registerRenderAsMetadata(japanese_dirt, 0);
 		AsiancraftRegistry.registerRenderAsMetadata(japanese_dirt, 1);
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 0);
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 1);
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 2);
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 3);
 	}
 }

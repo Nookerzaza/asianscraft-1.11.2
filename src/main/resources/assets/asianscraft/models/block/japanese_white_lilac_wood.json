@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "asianscraft:blocks/japanese_white_lilac_wood"
+    }
+}

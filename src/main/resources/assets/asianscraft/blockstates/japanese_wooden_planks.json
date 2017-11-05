@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "variant=japanese_cherry_wood": { "model": "asianscraft:japanese_cherry_wood" },
+        "variant=japanese_maple_wood":  { "model": "asianscraft:japanese_maple_wood"  },
+        "variant=japanese_black_pine_wood":  { "model": "asianscraft:japanese_black_pine_wood"  },
+        "variant=japanese_white_lilac_wood":  { "model": "asianscraft:japanese_white_lilac_wood"  }
+    }
+}

@@ -1,4 +1,4 @@
-package nookerzaza.mods.asiancraft.countries.japanese.blocks;
+package nookerzaza.mods.asiancraft.countries.japanese.itemblocks;
 
 import net.minecraft.block.Block;
 import nookerzaza.mods.asiancraft.common.util.itemblock.ItemBlockAC;
