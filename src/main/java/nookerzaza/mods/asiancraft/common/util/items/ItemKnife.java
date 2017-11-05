@@ -12,7 +12,7 @@ public class ItemKnife extends ItemBaseAC
 {
 	public ItemKnife(String name, int dubrality) {
 		super(name);
-		this.setMaxDamage(dubrality);
+		this.setMaxDamage(dubrality *2);
 		setNoRepair();
 		this.setRegistryName(name);
 	}

@@ -6,6 +6,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -17,11 +19,13 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import nookerzaza.mods.asiancraft.common.client.gui.renderer.GuiHandler;
 import nookerzaza.mods.asiancraft.common.init.Asiancraftblocks;
 import nookerzaza.mods.asiancraft.common.init.Asiancraftitems;
+import nookerzaza.mods.asiancraft.common.util.AsiancraftEvent;
 import nookerzaza.mods.asiancraft.common.util.Util;
 import nookerzaza.mods.asiancraft.common.util.config.ConfigManagerAC;
 import nookerzaza.mods.asiancraft.common.util.tab.ACCreativeTab;
 import nookerzaza.mods.asiancraft.core.proxy.CommonProxy;
 import nookerzaza.mods.asiancraft.countries.japanese.init.JapaneseBlocks;
+import nookerzaza.mods.asiancraft.countries.japanese.util.CraftingManagerJapanese;
 
 @Mod(name=ReferenceAC.Name,modid=ReferenceAC.MOD_ID,version=ReferenceAC.VERSION, dependencies = ReferenceAC.FORGE_VERSION, guiFactory = ReferenceAC.GUIFactories)
 public class AsiancraftCore 
@@ -41,6 +45,9 @@ public class AsiancraftCore
 		actabitems = new ACCreativeTab("ac_tabitems", "items_ac");
 		Asiancraftitems.initall();
 		Asiancraftblocks.initall();
+		CraftingManagerJapanese.initall();
+		FMLCommonHandler.instance().bus().register(new AsiancraftEvent());
+		MinecraftForge.EVENT_BUS.register(new AsiancraftEvent());
 		proxy.registerrender();
 	}
 	
