@@ -21,6 +21,11 @@ tile.covered_cherryblossom_grass.name=หญ้าที่ปกคลุมด
 tile.japanese_dirt.dirt.name=ดินญี่ปุ่น
 tile.japanese_dirt.coarse.name=ดินหยาบญี่ปุ่น
 
+tile.japanese_wooden_planks.japanese_cherry.name=Japanese Cherry Planks
+tile.japanese_wooden_planks.japanese_maple.name=Japanese Maple Planks
+tile.japanese_wooden_planks.japanese_black_pine.name=Japanese Black Pine Planks
+tile.japanese_wooden_planks.japanese_white_lilac.name=Japanese White Lilac Planks
+
 //items
 item.achivement_book_ac.name=หนังสือแห่งความสำเร็จ
 

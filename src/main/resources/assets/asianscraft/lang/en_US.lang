@@ -21,6 +21,11 @@ tile.covered_cherryblossom_grass.name=Covered Cherryblossom Grass
 tile.japanese_dirt.dirt.name=Japanese Dirt
 tile.japanese_dirt.coarse.name=Japanese Coarse Dirt
 
+tile.japanese_wooden_planks.japanese_cherry.name=Japanese Cherry Planks
+tile.japanese_wooden_planks.japanese_maple.name=Japanese Maple Planks
+tile.japanese_wooden_planks.japanese_black_pine.name=Japanese Black Pine Planks
+tile.japanese_wooden_planks.japanese_white_lilac.name=Japanese White Lilac Planks
+
 //items
 item.achivement_book_ac.name=Achivements Book
 

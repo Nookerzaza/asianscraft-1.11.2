@@ -26,16 +26,6 @@ public class AsiancraftRegistry {
 		Util.getLoger().info("Register render for " + items.getUnlocalizedName().substring(5) + " With metadata " + metadata);
 	}
 	
-	/*public static void registerModelRender(Block block, String variantName) {
-		AsiancraftRegistry.registerModelRender(Item.getItemFromBlock(block), 0, variantName);
-	}
-	public static void registerModelRender(Block block,int meta, String variantName) {
-		AsiancraftRegistry.registerModelRender(Item.getItemFromBlock(block), meta, variantName);
-	}
-
-	public static void registerModelRender(Item item, int meta, String variantName) {
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, meta,new ModelResourceLocation("asianscraft:" + variantName, "inventory"));
-	}*/
 
 	public static void registerRender(Block block) 
 	{
@@ -43,9 +33,9 @@ public class AsiancraftRegistry {
 		Util.getLoger().info("Register render for " + block.getUnlocalizedName().substring(5));
 	}
 
-	public static void registerRenderAsMetadata(Block block, int metadata) 
+	public static void registerRenderAsMetadata(Block block, int metadata,String filename) 
 	{
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), metadata, new ModelResourceLocation(new ResourceLocation(ReferenceAC.MOD_ID, block.getUnlocalizedName().substring(5)), "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), metadata, new ModelResourceLocation(new ResourceLocation(ReferenceAC.MOD_ID, filename), "inventory"));
 		Util.getLoger().info("Register render for " + block.getUnlocalizedName().substring(5) + " With metadata " + metadata);
 	}
 	
