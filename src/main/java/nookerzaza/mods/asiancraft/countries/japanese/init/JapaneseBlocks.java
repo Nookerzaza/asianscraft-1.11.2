@@ -6,7 +6,7 @@ import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseDirt;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCobbleStone;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCoveredCherryBlossomGrass;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseStone;
-import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseWood;
+import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapanesePlanks;
 import nookerzaza.mods.asiancraft.countries.japanese.itemblocks.ItemBlockJapaneseDirt;
 import nookerzaza.mods.asiancraft.countries.japanese.itemblocks.ItemBlockJapaneseWood;
 
@@ -30,7 +30,7 @@ public class JapaneseBlocks
 		japanese_cobblestone = new BlockJapaneseCobbleStone("japanese_cobblestone");
 		covered_jp_cherryblossom = new BlockJapaneseCoveredCherryBlossomGrass("covered_cherryblossom_grass");
 		japanese_dirt = new BlockJapaneseDirt("japanese_dirt");
-		japanese_wooden_planks = new BlockJapaneseWood("japanese_wooden_planks");
+		japanese_wooden_planks = new BlockJapanesePlanks("japanese_wooden_planks");
 	}
 	
 	public static void register()

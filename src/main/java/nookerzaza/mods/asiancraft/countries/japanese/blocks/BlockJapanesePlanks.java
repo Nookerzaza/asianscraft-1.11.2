@@ -18,11 +18,11 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import nookerzaza.mods.asiancraft.common.util.blocks.BlockBaseAC;
 import nookerzaza.mods.asiancraft.core.ReferenceAC;
 
-public class BlockJapaneseWood extends BlockBaseAC
+public class BlockJapanesePlanks extends BlockBaseAC
 {
     public static PropertyEnum VARIANT = PropertyEnum.create("variant", BlockType.class);
 
-    public BlockJapaneseWood(String name)
+    public BlockJapanesePlanks(String name)
     {
         super(Material.WOOD);
         this.setSoundType(SoundType.WOOD);
