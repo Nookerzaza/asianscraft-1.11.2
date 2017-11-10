@@ -17,6 +17,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import nookerzaza.mods.asiancraft.common.client.gui.renderer.GuiHandler;
+import nookerzaza.mods.asiancraft.common.init.ACCraftingManager;
 import nookerzaza.mods.asiancraft.common.init.Asiancraftblocks;
 import nookerzaza.mods.asiancraft.common.init.Asiancraftitems;
 import nookerzaza.mods.asiancraft.common.util.AsiancraftEvent;
@@ -45,7 +46,7 @@ public class AsiancraftCore
 		actabitems = new ACCreativeTab("ac_tabitems", "items_ac");
 		Asiancraftitems.initall();
 		Asiancraftblocks.initall();
-		CraftingManagerJapanese.initall();
+		ACCraftingManager.init();
 		FMLCommonHandler.instance().bus().register(new AsiancraftEvent());
 		MinecraftForge.EVENT_BUS.register(new AsiancraftEvent());
 		proxy.registerrender();
