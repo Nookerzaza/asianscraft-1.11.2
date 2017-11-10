@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "axis=y,variant=japanese_cherry_log":    { "model": "asianscraft:japanese_cherry_log" },
+        "axis=z,variant=japanese_cherry_log":     { "model": "asianscraft:japanese_cherry_log", "x": 90 },
+        "axis=x,variant=japanese_cherry_log":     { "model": "asianscraft:japanese_cherry_log", "x": 90, "y": 90 },
+        "axis=none,variant=japanese_cherry_log":   { "model": "asianscraft:japanese_cherry_log_bark" },
+		"axis=y,variant=japanese_maple_log":    { "model": "asianscraft:japanese_maple_log" },
+        "axis=z,variant=japanese_maple_log":     { "model": "asianscraft:japanese_maple_log", "x": 90 },
+        "axis=x,variant=japanese_maple_log":     { "model": "asianscraft:japanese_maple_log", "x": 90, "y": 90 },
+        "axis=none,variant=japanese_maple_log":   { "model": "asianscraft:japanese_maple_log_bark" },
+		"axis=y,variant=japanese_black_pine_log":    { "model": "asianscraft:japanese_black_pine_log" },
+        "axis=x,variant=japanese_black_pine_log":     { "model": "asianscraft:japanese_black_pine_log", "x": 90, "y": 90 },
+        "axis=z,variant=japanese_black_pine_log":     { "model": "asianscraft:japanese_black_pine_log", "x": 90 },
+        "axis=none,variant=japanese_black_pine_log":   { "model": "asianscraft:japanese_black_pine_log_bark" },
+		"axis=y,variant=japanese_white_lilac_log":    { "model": "asianscraft:japanese_white_lilac_log" },
+        "axis=z,variant=japanese_white_lilac_log":     { "model": "asianscraft:japanese_white_lilac_log", "x": 90 },
+        "axis=x,variant=japanese_white_lilac_log":     { "model": "asianscraft:japanese_white_lilac_log", "x": 90, "y": 90 },
+        "axis=none,variant=japanese_white_lilac_log":   { "model": "asianscraft:japanese_white_lilac_log_bark" }
+    }
+}

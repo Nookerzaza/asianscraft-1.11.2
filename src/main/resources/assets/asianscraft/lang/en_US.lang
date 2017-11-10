@@ -26,6 +26,11 @@ tile.japanese_wooden_planks.japanese_maple.name=Japanese Maple Planks
 tile.japanese_wooden_planks.japanese_black_pine.name=Japanese Black Pine Planks
 tile.japanese_wooden_planks.japanese_white_lilac.name=Japanese White Lilac Planks
 
+tile.japanese_log.japanese_cherry.name=Japanese Cherry Log
+tile.japanese_log.japanese_maple.name=Japanese Maple Log
+tile.japanese_log.japanese_black_pine.name=Japanese Black Pine Log
+tile.japanese_log.japanese_white_lilac.name=Japanese White Lilac Log
+
 //items
 item.achivement_book_ac.name=Achivements Book
 

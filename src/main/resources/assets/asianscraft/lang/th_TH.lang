@@ -21,10 +21,15 @@ tile.covered_cherryblossom_grass.name=หญ้าที่ปกคลุมด
 tile.japanese_dirt.dirt.name=ดินญี่ปุ่น
 tile.japanese_dirt.coarse.name=ดินหยาบญี่ปุ่น
 
-tile.japanese_wooden_planks.japanese_cherry.name=ไม้เชอรี่ญี่ปุ่น
-tile.japanese_wooden_planks.japanese_maple.name=ไม้เมเปิ้ลญี่ปุ่น
-tile.japanese_wooden_planks.japanese_black_pine.name=ไม้สนสีดำญี่ปุ่น
-tile.japanese_wooden_planks.japanese_white_lilac.name=ไม้ลิเล็กซ์ขาวญี่ปุ่น
+tile.japanese_wooden_planks.japanese_cherry.name=ไม้เชอรี่ญี่ปุ่นแปรรูป
+tile.japanese_wooden_planks.japanese_maple.name=ไม้เมเปิ้ลญี่ปุ่นแปรรูป
+tile.japanese_wooden_planks.japanese_black_pine.name=ไม้สนสีดำญี่ปุ่นแปรรูป
+tile.japanese_wooden_planks.japanese_white_lilac.name=ไม้ลิเล็กซ์ขาวญี่ปุ่นแปรรูป
+
+tile.japanese_log.japanese_cherry.name=ไม้เชอรี่ญี่ปุ่น
+tile.japanese_log.japanese_maple.name=ไม้เมเปิ้ลญี่ปุ่น
+tile.japanese_log.japanese_black_pine.name=ไม้สนสีดำญี่ปุ่น
+tile.japanese_log.japanese_white_lilac.name=ไม้ลิเล็กซ์ขาวญี่ปุ่น
 
 //items
 item.achivement_book_ac.name=หนังสือแห่งความสำเร็จ

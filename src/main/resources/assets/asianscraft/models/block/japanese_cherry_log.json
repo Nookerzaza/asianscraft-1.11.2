@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "asianscraft:blocks/log_japanese_cherry_top",
+        "side": "asianscraft:blocks/log_japanese_cherry_side"
+    }
+}

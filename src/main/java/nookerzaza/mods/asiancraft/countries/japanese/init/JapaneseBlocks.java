@@ -3,6 +3,7 @@ package nookerzaza.mods.asiancraft.countries.japanese.init;
 import net.minecraft.block.Block;
 import nookerzaza.mods.asiancraft.common.util.AsiancraftRegistry;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseDirt;
+import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseLog;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCobbleStone;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseCoveredCherryBlossomGrass;
 import nookerzaza.mods.asiancraft.countries.japanese.blocks.BlockJapaneseStone;
@@ -17,6 +18,7 @@ public class JapaneseBlocks
 	public static Block japanese_cobblestone;
 	public static Block japanese_dirt;
 	public static Block japanese_wooden_planks;
+	public static Block japanese_log;
 	
 	public static void init()
 	{
@@ -31,6 +33,7 @@ public class JapaneseBlocks
 		covered_jp_cherryblossom = new BlockJapaneseCoveredCherryBlossomGrass("covered_cherryblossom_grass");
 		japanese_dirt = new BlockJapaneseDirt("japanese_dirt");
 		japanese_wooden_planks = new BlockJapanesePlanks("japanese_wooden_planks");
+		japanese_log = new BlockJapaneseLog("japanese_log");
 	}
 	
 	public static void register()
@@ -40,6 +43,7 @@ public class JapaneseBlocks
 		AsiancraftRegistry.registerblocks(covered_jp_cherryblossom);
 		AsiancraftRegistry.registerblocks(japanese_dirt,new ItemBlockJapaneseDirt(japanese_dirt));
 		AsiancraftRegistry.registerblocks(japanese_wooden_planks,new ItemBlockJapaneseWood(japanese_wooden_planks));
+		AsiancraftRegistry.registerblocks(japanese_log,new ItemBlockJapaneseWood(japanese_log));
 	}
 	
 	public static void registerrenderer()
@@ -53,5 +57,10 @@ public class JapaneseBlocks
 		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 1,"japanese_maple_planks");
 		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 2,"japanese_black_pine_planks");
 		AsiancraftRegistry.registerRenderAsMetadata(japanese_wooden_planks, 3,"japanese_white_lilac_planks");
+		
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_log,0,"japanese_cherry_log");
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_log, 1,"japanese_maple_log");
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_log, 2,"japanese_black_pine_log");
+		AsiancraftRegistry.registerRenderAsMetadata(japanese_log, 3,"japanese_white_lilac_log");
 	}
 }

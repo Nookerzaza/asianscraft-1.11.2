@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "asianscraft:blocks/japanese_white_lilac_log_top",
+        "side": "asianscraft:blocks/japanese_white_lilac_log_side"
+    }
+}
