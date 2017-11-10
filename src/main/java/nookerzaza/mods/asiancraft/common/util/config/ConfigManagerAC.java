@@ -77,7 +77,7 @@ public class ConfigManagerAC
     {
         ArrayList<String> propOrder = Lists.newArrayList();
         Property prop;
-        prop = ConfigManagerAC.config.get(ConfigManagerAC.GENERAL, "Enable ModTab", true);
+        prop = ConfigManagerAC.config.get(ConfigManagerAC.GENERAL, "Enable ModTab BG", true);
         ConfigManagerAC.enableModTabBackground = prop.getBoolean();
         propOrder.add(prop.getName());
 
