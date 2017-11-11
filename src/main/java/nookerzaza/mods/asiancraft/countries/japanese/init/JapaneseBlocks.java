@@ -19,6 +19,7 @@ public class JapaneseBlocks
 	public static Block japanese_dirt;
 	public static Block japanese_wooden_planks;
 	public static Block japanese_log;
+	public static Block japanese_leaves;
 	
 	public static void init()
 	{
